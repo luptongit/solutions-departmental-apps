@@ -15,7 +15,7 @@ npm install sfdx-cli --global
 1. Clone this repository:
 
 ```
-git clone https://github.com/gabesumner/solutions-departmental-apps
+git clone https://github.com/luptongit/solutions-departmental-apps
 cd solutions-departmental-apps
 ```
 
