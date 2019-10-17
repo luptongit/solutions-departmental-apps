@@ -6,7 +6,7 @@ sfdx force:user:permset:assign -n electron
 sfdx force:apex:execute -f force-app/main/default/classes/FlowDemoStartUpScript.cls
 
 sfdx shane:theme:activate -n Electron
-sfdx force:org:open --path '/lightning/page/home'
+sfdx force:org:open 
 sfdx shane:user:password:set -g User -l User -p dreamforce2019
 
 sfdx force:source:deploy -p visualization
