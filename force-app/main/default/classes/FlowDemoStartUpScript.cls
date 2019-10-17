@@ -1,0 +1,2 @@
+GenerateData.GenerateAccounts(70);
+   
