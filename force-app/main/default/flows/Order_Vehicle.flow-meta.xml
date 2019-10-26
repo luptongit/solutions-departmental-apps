@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Flow xmlns="http://soap.sforce.com/2006/04/metadata" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <decisions>
         <name>checkPaymentType</name>
         <label>Check payment type</label>
@@ -106,6 +105,9 @@
         </inputAssignments>
         <inputAssignments>
             <field>Price__c</field>
+            <value>
+                <elementReference>vehicle.Price__c</elementReference>
+            </value>
         </inputAssignments>
         <inputAssignments>
             <field>Vehicle__c</field>

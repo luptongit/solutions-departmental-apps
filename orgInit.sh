@@ -9,4 +9,3 @@ sfdx shane:theme:activate -n Electron
 sfdx force:org:open 
 sfdx shane:user:password:set -g User -l User -p dreamforce2019
 
-sfdx force:source:deploy -p visualization
